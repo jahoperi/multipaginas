@@ -12,6 +12,8 @@ stm.markdown("<h2 style='text-align: center; color: black;'>CAP's</h2>", unsafe_
 
 stm.markdown("")
 stm.markdown("")
+stm.markdown("")
+stm.markdown("")
 
 image = Image.open('afore1.jpg')
 
