@@ -14,6 +14,9 @@ stm.markdown("")
 stm.markdown("")
 stm.markdown("")
 stm.markdown("")
+stm.markdown("")
+stm.markdown("")
+stm.markdown("")
 
 image = Image.open('afore1.jpg')
 
