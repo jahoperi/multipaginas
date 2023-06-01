@@ -8,7 +8,7 @@ stm.sidebar.success("Actualmente visualizas la página 1")
 st.header("Fruit List")
 
 _dic = {
-'Name: ['Mango', 'Apple', 'Banana'],
+'Name': ['Mango', 'Apple', 'Banana'],
 'Quantity': [45, 38, 90]
 }
 
