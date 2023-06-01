@@ -13,7 +13,7 @@ with col1:
     stm.write(' ')
 
 with col2:
-    stm.image("afore.jpeg")
+    stm.image("afore1.jpg")
 
 with col3:
     stm.write(' ')
