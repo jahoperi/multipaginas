@@ -7,7 +7,7 @@ stm.markdown("<h1 style='text-align: center; color: black;'>Centros de Atención
 
 stm.markdown("<h2 style='text-align: center; color: black;'>CAP's</h2>", unsafe_allow_html=True)
 
-col1, col2, col3 = st.columns(3)
+col1, col2, col3 = stm.columns(3)
 
 with col1:
     stm.write(' ')
