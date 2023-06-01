@@ -10,12 +10,12 @@ stm.markdown("<h2 style='text-align: center; color: black;'>CAP's</h2>", unsafe_
 col1, col2, col3 = st.columns(3)
 
 with col1:
-    st.write(' ')
+    stm.write(' ')
 
 with col2:
-    st.image("afore.jpeg")
+    stm.image("afore.jpeg")
 
 with col3:
-    st.write(' ')
+    stm.write(' ')
 
 stm.sidebar.success("Seleccione cualquier página desde aquí")
