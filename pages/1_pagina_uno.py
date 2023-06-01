@@ -7,12 +7,12 @@ stm.sidebar.success("Actualmente visualizas la página 1")
 
 stm.header("Fruit List")
 
-_dic = {
+_dict = {
 'Name': ['Mango', 'Apple', 'Banana'],
 'Quantity': [45, 38, 90]
 }
 
-_df = pdm.Dataframe(_dic)
+_df = pdm.Dataframe(_dict)
 
 load = stm.button('Load Data')
 
