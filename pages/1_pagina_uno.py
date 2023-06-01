@@ -5,7 +5,7 @@ import plotly.express as px
 stm.title("Página 1 de la presentación")
 stm.sidebar.success("Actualmente visualizas la página 1")
 
-st.header("Fruit List")
+stm.header("Fruit List")
 
 _dic = {
 'Name': ['Mango', 'Apple', 'Banana'],
