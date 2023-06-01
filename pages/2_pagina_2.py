@@ -1,4 +1,4 @@
 import streamlit as stm
   
-stm.title("This is PageTwo Geeks.")
-stm.sidebar.success("You are currently viewing Page Two Geek")
+stm.title("Página 1 de la presentación")
+stm.sidebar.success("Actualmente visualizas la página 2")
