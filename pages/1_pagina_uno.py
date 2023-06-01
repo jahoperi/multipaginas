@@ -1,6 +1,6 @@
 import streamlit as stm
-import pandas as pd
-import plotly.express as px
+import pandas as pdm
+import plotly.express as pxm
   
 stm.title("Página 1 de la presentación")
 stm.sidebar.success("Actualmente visualizas la página 1")
@@ -12,7 +12,7 @@ _dic = {
 'Quantity': [45, 38, 90]
 }
 
-_df = pd.Dataframe(_dic)
+_df = pdm.Dataframe(_dic)
 
 load = stm.button('Load Data')
 
@@ -26,8 +26,8 @@ if load or st.session_state.load_state:
 
     opt = stm.radio('Plot type :', ['Bar', 'Pie'])
     if opt == 'Bar':
-           fig = px.Bar(_df, x = 'Name', y = 'Quantity', title = 'Bar Chart')
+           fig = pxm.Bar(_df, x = 'Name', y = 'Quantity', title = 'Bar Chart')
            stm.plotly_chart(fig)
     else:
-           fig = px.pie(_df, x = 'Name', y = 'Quantity', title = 'Pie Chart')
+           fig = pxm.pie(_df, x = 'Name', y = 'Quantity', title = 'Pie Chart')
            stm.plotly_chart(fig)
