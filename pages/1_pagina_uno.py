@@ -14,20 +14,20 @@ _dic = {
 
 _df = pd.Dataframe(_dic)
 
-load = st.button('Load Data')
+load = stm.button('Load Data')
 
 
 if "load_state" not in st.session_state:
-    st.session_state.load_state = False
+    stm.session_state.load_state = False
 
 if load or st.session_state.load_state:
-    st.session_state.load_state = True
-    st.write(_df)
+    stm.session_state.load_state = True
+    stm.write(_df)
 
-    opt = st.radio('Plot type :', ['Bar', 'Pie'])
+    opt = stm.radio('Plot type :', ['Bar', 'Pie'])
     if opt == 'Bar':
            fig = px.Bar(_df, x = 'Name', y = 'Quantity', title = 'Bar Chart')
-           st.plotly_chart(fig)
+           stm.plotly_chart(fig)
     else:
            fig = px.pie(_df, x = 'Name', y = 'Quantity', title = 'Pie Chart')
-           st.plotly_chart(fig)
+           stm.plotly_chart(fig)
