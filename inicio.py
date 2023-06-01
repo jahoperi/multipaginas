@@ -11,6 +11,6 @@ from PIL import Image
 
 image = Image.open('afore1.jpg')
 
-st.image(image, caption='Sunrise by the mountains')
+stm.image(image, caption='Sunrise by the mountains')
 
 stm.sidebar.success("Seleccione cualquier página desde aquí")
