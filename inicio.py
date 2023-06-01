@@ -7,15 +7,10 @@ stm.markdown("<h1 style='text-align: center; color: black;'>Centros de Atención
 
 stm.markdown("<h2 style='text-align: center; color: black;'>CAP's</h2>", unsafe_allow_html=True)
 
-col1, col2, col3 = stm.columns(3)
+from PIL import Image
 
-with col1:
-    stm.write(' ')
+image = Image.open('afore1.jpg')
 
-with col2:
-    stm.image("afore1.jpg")
-
-with col3:
-    stm.write(' ')
+st.image(image, caption='Sunrise by the mountains')
 
 stm.sidebar.success("Seleccione cualquier página desde aquí")
