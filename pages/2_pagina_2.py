@@ -23,7 +23,7 @@ if "load_state" not in stm.session_state:
      stm.session_state.load_state = False
 
 
-if load or st.session_state.load_state:
+if load or stm.session_state.load_state:
 
     stm.session_state.load_state = True
     stm.write(_df)
