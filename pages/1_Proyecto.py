@@ -5,7 +5,7 @@ import streamlit as stm
 stm.markdown("<h1 style='text-align: center; color: black;'>Estudios de ubicación de CAP’s</h1>", unsafe_allow_html=True)
 
 original_title = '<p style="font-family:Courier; color:Blue; font-size: 20px;">1.- Introducción</p>'
-st.markdown(original_title, unsafe_allow_html=True)
+stm.markdown(original_title, unsafe_allow_html=True)
 
 #stm.markdown("<h1 style='text-align: justify; color: black;'>"I.-Introducción</h1>", unsafe_allow_html=True)
 
