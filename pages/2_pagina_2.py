@@ -1,6 +1,6 @@
 import streamlit as stm
 import pandas as pd
-import plotly.express as px 
+import plotly.express as px
 
 #stm.title("Página 2 de la presentación")
 stm.sidebar.success("Actualmente visualizas la página 2")
@@ -18,7 +18,7 @@ _df = pd.DataFrame(_dic)
 load = stm.button('Load Data')
 
 
-if "load_state" not in st.session_state:
+if "load_state" not in stm.session_state:
     
      stm.session_state.load_state = False
 
