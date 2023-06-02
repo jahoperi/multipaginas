@@ -30,7 +30,7 @@ if load or stm.session_state.load_state:
 
 opt = stm.radio('Tipo de gráfica :', ['Barras', 'Circular'])
 
-if opt == 'Bar':
+if opt == 'Barras':
      fig = px.bar(_df, x = 'Name', y = 'Quantity', title = 'Bar Chart')
      stm.plotly_chart(fig)
 else:
