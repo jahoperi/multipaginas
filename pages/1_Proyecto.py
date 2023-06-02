@@ -2,7 +2,7 @@ import streamlit as stm
 
 #stm.title("Página 1 de la presentación")
 
-stm.markdown("<h1 style='text-align: center; color: black;'>Estudios de ubicación de CAP’s</h1>", unsafe_allow_html=True)
+stm.markdown("<h1 style='text-align: center; color: black;'>Estudio de ubicación de CAP’s</h1>", unsafe_allow_html=True)
 
 stm.markdown("")
 stm.markdown("")
