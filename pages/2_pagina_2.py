@@ -15,7 +15,7 @@ _dic = {
 
 _df = pd.DataFrame(_dic)
 
-load = st.button('Load Data')
+load = stm.button('Load Data')
 
 
 if "load_state" not in st.session_state:
