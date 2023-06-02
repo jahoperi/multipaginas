@@ -15,7 +15,7 @@ _dic = {
 
 _df = pd.DataFrame(_dic)
 
-load = stm.button('Load Data')
+load = stm.button('Cargar datos')
 
 
 if "load_state" not in stm.session_state:
@@ -28,7 +28,7 @@ if load or stm.session_state.load_state:
     stm.session_state.load_state = True
     stm.write(_df)
 
-opt = stm.radio('Plot type :', ['Bar', 'Pie'])
+opt = stm.radio('Tipo de gráfica :', ['Barras', 'Circular'])
 
 if opt == 'Bar':
      fig = px.bar(_df, x = 'Name', y = 'Quantity', title = 'Bar Chart')
