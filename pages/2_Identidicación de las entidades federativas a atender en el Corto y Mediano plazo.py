@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 #stm.title("Página 2 de la presentación")
-stm.sidebar.success("Actualmente visualizas la página 2")
+stm.sidebar.success("Lá página se visualiza correctamente")
 
 
 stm.header("Índice resultante por entidad federativa")
