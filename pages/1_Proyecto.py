@@ -49,19 +49,19 @@ stm.markdown("")
 
 #stm.markdown("<h1 style='text-align: justify; color: black;'>3.-Requerimientos</h1>", unsafe_allow_html=True)
 
-e = '<p style=style="text-align: justify, font-family:Courier; color:Black; font-size: 30px;">a) a) Localización de cada CAP con latitud y longitud</p>'  
+e = '<p style=style="text-align: justify; font-family:Courier; color:Black; font-size: 30px;">a) a) Localización de cada CAP con latitud y longitud</p>'  
 stm.markdown(e, unsafe_allow_html=True)
 
-f = '<p style="text-align: justify, font-family:Courier; color:Black; font-size: 30px;">b) Número de personas atendidas en cada CAP por semana o en su caso por mes</h1></p>' 
+f = '<p style="text-align: justify; font-family:Courier; color:Black; font-size: 30px;">b) Número de personas atendidas en cada CAP por semana o en su caso por mes</h1></p>' 
 stm.markdown(f, unsafe_allow_html=True)
 
-g = '<p style="text-align: justify, font-family:Courier; color:Black; font-size: 30px;">c) Número de personas que trabajan en cada CAP</h1></p>' 
+g = '<p style="text-align: justify; font-family:Courier; color:Black; font-size: 30px;">c) Número de personas que trabajan en cada CAP</h1></p>' 
 stm.markdown(g, unsafe_allow_html=True)
 
-h = '<style="text-align: justify, font-family:Courier; color:Black; font-size: 30px;">d) Número de traspasos por entidad</h1></p>' 
+h = '<style="text-align: justify; font-family:Courier; color:Black; font-size: 30px;">d) Número de traspasos por entidad</h1></p>' 
 stm.markdown(h, unsafe_allow_html=True)
 
-i = '<p style="text-align: justify, font-family:Courier; color:Black; font-size: 30px;">e) Monto de traspasos</h1></p>'
+i = '<p style="text-align: justify; font-family:Courier; color:Black; font-size: 30px;">e) Monto de traspasos</h1></p>'
 stm.markdown(i, unsafe_allow_html=True)
 
 j = '<p style="text-align: justify, font-family:Courier; color:Black; font-size: 30px;">f) Número de habitantes por municipio</h1></p>' 
