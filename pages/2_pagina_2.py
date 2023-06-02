@@ -31,8 +31,8 @@ if load or stm.session_state.load_state:
 opt = stm.radio('Tipo de gráfica :', ['Barras', 'Circular'])
 
 if opt == 'Barras':
-     fig = px.bar(_df, x = 'Name', y = 'Quantity', title = 'Bar Chart')
+     fig = px.bar(_df, x = 'Entidad federativa', y = 'Índice', title = 'Gráfico de barras')
      stm.plotly_chart(fig)
 else:
-     fig = px.pie(_df, names = 'Name', values = 'Quantity', title = 'Pie Chart')
+     fig = px.pie(_df, names = 'Name', values = 'Quantity', title = 'Gráfico circular')
      stm.plotly_chart(fig)
