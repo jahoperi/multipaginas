@@ -6,7 +6,7 @@ import plotly.express as px
 stm.sidebar.success("Actualmente visualizas la página 2")
 
 
-stm.header("Fruit List")
+stm.header("Índice resultante por entidad federativa")
 
 _dic = {
 'Name': ['Nuevo León', 'Chihuahua', 'Baja California', 'Ciudad de México', 'Sinaloa', 'Baja California Sur', 'México', 'Tamaulipas', 'Quintana Roo', 'Sonora', 'Coahuila', 'Jalisco', 'Querétaro', 'Guanajuato', 'Hidalgo', 'Yucatán', 'Aguascalientes', 'Colima', 'Durango', 'San Luis Potosí', 'Michoacán', 'Veracruz', 'Guerrero', 'Oaxaca', 'Nayarit', 'Puebla', 'Morelos', 'Tlaxcala', 'Tabasco', 'Zacatecas', 'Campeche', 'Chiapas'],
