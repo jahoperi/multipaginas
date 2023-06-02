@@ -73,7 +73,7 @@ stm.markdown(k, unsafe_allow_html=True)
 l = '<p style="text-align: justify, font-family:Courier; color:Black; font-size: 30px;">h) Número de personas en el municipio afiliados a AFORE PENSIONISSSTE</h1></p>'
 stm.markdown(l, unsafe_allow_html=True)
 
-m = '<p style="text-align: justify, font-family:Courier; color:Black; font-size: 30px;">i) Ubicar los CAP’s de la competencia</h1></p>'
+m = '<p style="text-align: justify, font-family:Courier; color:Black; font-size: 30px;">i)</h1>Ubicar los CAP’s de la competencia</h1></p>'
 stm.markdown(m, unsafe_allow_html=True)
 
 stm.sidebar.success("La página se visualiza correctamente")
