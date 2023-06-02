@@ -19,11 +19,11 @@ stm.markdown("")
 a = '<p style="text-align: justify, font-family:Courier; color:Black; font-size: 30px;">En PENSIONISSSTE es necesario contar con excelentes instalaciones, así como tener el personal capacitado para dar un servicio con la mejor calidad. </p>'
 stm.markdown(a, unsafe_allow_html=True)
 
-b = '<p style="text-align: justify, font-family:Courier; color:Black; font-size: 30px;">PENSIONISSSTE pretende realizar un estudio para asentar nuevos Centros de Atención al Público conocidos como CAP’s en el espacio geográfico de las 32 entidades federativas, lo que implicaría que en las ciudades más concurridas, toda persona pueda tener acceso a un CAP cerca de su domicilio o del lugar donde labora; y poder así incorporar a más trabajadores a AFORE PENSIONISSSTE.</p>'
-stm.markdown(b, unsafe_allow_html=True)
+#b = '<p style="text-align: justify, font-family:Courier; color:Black; font-size: 30px;">PENSIONISSSTE pretende realizar un estudio para asentar nuevos Centros de Atención al Público conocidos como CAP’s en el espacio geográfico de las 32 entidades federativas, lo que implicaría que en las ciudades más concurridas, toda persona pueda tener acceso a un CAP cerca de su domicilio o del lugar donde labora; y poder así incorporar a más trabajadores a AFORE PENSIONISSSTE.</p>'
+#stm.markdown(b, unsafe_allow_html=True)
 
-c = '<p style="text-align: justify, font-family:Courier; color:Black; font-size: 30px;">De igual manera, este estudio permitirá a PENSIONISSSTE saber si un CAP es rentable en su ubicación actual para así poder añadir nuevo personal, servicios y/o tecnologías, en caso contrario, si un CAP no es rentable este debe cerrar.</p>'
-stm.markdown(c, unsafe_allow_html=True)
+#c = '<p style="text-align: justify, font-family:Courier; color:Black; font-size: 30px;">De igual manera, este estudio permitirá a PENSIONISSSTE saber si un CAP es rentable en su ubicación actual para así poder añadir nuevo personal, servicios y/o tecnologías, en caso contrario, si un CAP no es rentable este debe cerrar.</p>'
+#stm.markdown(c, unsafe_allow_html=True)
 
 stm.markdown("")
 stm.markdown("")
