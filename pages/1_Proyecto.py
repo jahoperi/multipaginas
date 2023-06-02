@@ -23,9 +23,18 @@ stm.markdown("<h1 style='text-align: justify; color: black;'>De igual manera, es
 
 #stm.markdown("<h1 style='text-align: justify; color: black;'>2.-Objetivo</h1>", unsafe_allow_html=True)
 
+stm.markdown("")
+stm.markdown("")
+stm.markdown("")
+
 original_objetivo = '<p style="font-family:Courier; color:Blue; font-size: 40px;">2.- Objetivo</p>'
 stm.markdown(original_objetivo, unsafe_allow_html=True)
 stm.markdown("<h1 style='text-align: justify; color: black;'>Realizar trabajo de investigación y aplicar técnicas estadísticas para el análisis de datos que permita tomar las mejores decisiones para ubicar, reubicar o cerrar los Centros de Atención al Público (CAP´s) de PENSIONISSSTE a lo largo del país.</h1>", unsafe_allow_html=True)
+
+stm.markdown("")
+stm.markdown("")
+stm.markdown("")
+
 
 original_requerimientos = '<p style="font-family:Courier; color:Blue; font-size: 40px;">3.- Requerimientos</p>'
 stm.markdown(original_requerimientos, unsafe_allow_html=True)
