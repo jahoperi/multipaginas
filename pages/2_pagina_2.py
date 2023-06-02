@@ -32,7 +32,7 @@ opt = stm.radio('Plot type :', ['Bar', 'Pie'])
 
 if opt == 'Bar':
      fig = px.bar(_df, x = 'Name', y = 'Quantity', title = 'Bar Chart')
-     st.plotly_chart(fig)
+     stm.plotly_chart(fig)
 else:
      fig = px.pie(_df, names = 'Name', values = 'Quantity', title = 'Pie Chart')
      stm.plotly_chart(fig)
