@@ -6,7 +6,7 @@ import plotly.express as px
 stm.sidebar.success("Actualmente visualizas la página 2")
 
 
-st.header("Fruit List")
+stm.header("Fruit List")
 
 _dic = {
 'Name': ['Mango', 'Apple', 'Banana'],
@@ -20,19 +20,19 @@ load = st.button('Load Data')
 
 if "load_state" not in st.session_state:
     
-     st.session_state.load_state = False
+     stm.session_state.load_state = False
 
 
 if load or st.session_state.load_state:
 
-    st.session_state.load_state = True
-    st.write(_df)
+    stm.session_state.load_state = True
+    stm.write(_df)
 
-opt = st.radio('Plot type :', ['Bar', 'Pie'])
+opt = stm.radio('Plot type :', ['Bar', 'Pie'])
 
 if opt == 'Bar':
      fig = px.bar(_df, x = 'Name', y = 'Quantity', title = 'Bar Chart')
      st.plotly_chart(fig)
 else:
      fig = px.pie(_df, names = 'Name', values = 'Quantity', title = 'Pie Chart')
-     st.plotly_chart(fig)
+     stm.plotly_chart(fig)
