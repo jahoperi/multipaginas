@@ -64,16 +64,16 @@ stm.markdown(h, unsafe_allow_html=True)
 i = '<p style="text-align: justify; font-family:Courier; color:Black; font-size: 30px;">e) Monto de traspasos</p>'
 stm.markdown(i, unsafe_allow_html=True)
 
-j = '<p style="text-align: justify, font-family:Courier; color:Black; font-size: 30px;">f) Número de habitantes por municipio</p>' 
+j = '<p style="text-align: justify; font-family:Courier; color:Black; font-size: 30px;">f) Número de habitantes por municipio</p>' 
 stm.markdown(j, unsafe_allow_html=True)
 
-k = '<p style="text-align: justify, font-family:Courier; color:Black; font-size: 30px;">g) Número de personas en el municipio con una Cuenta Individual CI</p>'
+k = '<p style="text-align: justify; font-family:Courier; color:Black; font-size: 30px;">g) Número de personas en el municipio con una Cuenta Individual CI</p>'
 stm.markdown(k, unsafe_allow_html=True)
 
-l = '<p style="text-align: justify, font-family:Courier; color:Black; font-size: 30px;">h) Número de personas en el municipio afiliados a AFORE PENSIONISSSTE</p>'
+l = '<p style="text-align: justify; font-family:Courier; color:Black; font-size: 30px;">h) Número de personas en el municipio afiliados a AFORE PENSIONISSSTE</p>'
 stm.markdown(l, unsafe_allow_html=True)
 
-m = '<p style="text-align: justify, font-family:Courier; color:Black; font-size: 30px;">i) Ubicar los CAP’s de la competencia</p>'
+m = '<p style="text-align: justify; font-family:Courier; color:Black; font-size: 30px;">i) Ubicar los CAP’s de la competencia</p>'
 stm.markdown(m, unsafe_allow_html=True)
 
 stm.sidebar.success("La página se visualiza correctamente")
