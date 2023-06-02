@@ -6,5 +6,5 @@ stm.markdown("<h1 style='text-align: justify; color: black;'>LLevar a cabo un an
 
 
 
-stm.sidebar.success("Actualmente visualizas la página 1")
+stm.sidebar.success("La página se visualiza correctamente")
 
