@@ -4,7 +4,7 @@ import streamlit as stm
 
 stm.markdown("<h1 style='text-align: center; color: black;'>Estudio de ubicación de CAP’s</h1>", unsafe_allow_html=True)
 
-stm.markdown("")
+stm.markdown("cccccccccccccccccccccccccccccccccccccc")
 stm.markdown("")
 stm.markdown("")
 
