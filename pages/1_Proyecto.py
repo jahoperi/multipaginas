@@ -67,7 +67,7 @@ stm.markdown(i, unsafe_allow_html=True)
 j = '<p style="font-family:Courier; color:Black; font-size: 30px;">f) Número de habitantes por municipio</h1></p>' 
 stm.markdown(j, unsafe_allow_html=True)
 
-k = '<p style="font-family:Courier; color:Black; font-size: 30px;">g) Número de personas en el municipio con una CI</h1></p>'
+k = '<p style="font-family:Courier; color:Black; font-size: 30px;">g) Número de personas en el municipio con una Cuenta Individual CI</h1></p>'
 stm.markdown(k, unsafe_allow_html=True)
 
 l = '<p style="font-family:Courier; color:Black; font-size: 30px;">h) Número de personas en el municipio afiliados a AFORE PENSIONISSSTE</h1></p>'
