@@ -49,7 +49,10 @@ stm.markdown("")
 
 #stm.markdown("<h1 style='text-align: justify; color: black;'>3.-Requerimientos</h1>", unsafe_allow_html=True)
 
-e = '<p style=style="text-align: justify; font-family:Courier; color:Black; font-size: 30px;">a) Localización de cada CAP con latitud y longitud</p>'  
+#e = '<p style=style="text-align: justify; font-family:Courier; color:Black; font-size: 30px;">a) Localización de cada CAP con latitud y longitud</p>'  
+#stm.markdown(e, unsafe_allow_html=True)
+
+e = '<p style="text-align: justify; font-family:Courier; color:Black; font-size: 30px;">b) Localización de cada CAP con latitud y longitud</p>' 
 stm.markdown(e, unsafe_allow_html=True)
 
 f = '<p style="text-align: justify; font-family:Courier; color:Black; font-size: 30px;">b) Número de personas atendidas en cada CAP por semana o en su caso por mes</p>' 
