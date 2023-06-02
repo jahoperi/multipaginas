@@ -7,6 +7,10 @@ stm.markdown("<h1 style='text-align: center; color: black;'>Estudios de ubicaci�
 original_title = '<p style="font-family:Courier; color:Blue; font-size: 40px;">1.- Introducción</p>'
 stm.markdown(original_title, unsafe_allow_html=True)
 
+stm.markdown()
+stm.markdown()
+stm.markdown()
+
 #stm.markdown("<h1 style='text-align: justify; color: black;'>"I.-Introducción</h1>", unsafe_allow_html=True)
 
 stm.markdown("<h1 style='text-align: justify; color: black;'>En PENSIONISSSTE es necesario contar con excelentes instalaciones, así como tener el personal capacitado para dar un servicio con la mejor calidad.</h1>", unsafe_allow_html=True)
