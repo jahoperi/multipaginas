@@ -39,6 +39,10 @@ stm.markdown("")
 original_requerimientos = '<p style="font-family:Courier; color:Blue; font-size: 40px;">3.- Requerimientos</p>'
 stm.markdown(original_requerimientos, unsafe_allow_html=True)
 
+stm.markdown("")
+stm.markdown("")
+stm.markdown("")
+
 #stm.markdown("<h1 style='text-align: justify; color: black;'>3.-Requerimientos</h1>", unsafe_allow_html=True)
 stm.markdown("<h1 style='text-align: justify; color: black;'>a) Localización de cada CAP con latitud y longitud</h1>", unsafe_allow_html=True)
 stm.markdown("<h1 style='text-align: justify; color: black;'>b) Número de personas atendidas de cada CAP por semana o en su caso por mes</h1>", unsafe_allow_html=True)
