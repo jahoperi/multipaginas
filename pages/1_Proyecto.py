@@ -22,8 +22,6 @@ stm.markdown(a, unsafe_allow_html=True)
 b = '<p style="font-family:Courier; color:Black; font-size: 30px;">PENSIONISSSTE pretende realizar un estudio para asentar nuevos Centros de Atención al Público conocidos como CAP’s en el espacio geográfico de las 32 entidades federativas, lo que implicaría que en las ciudades más concurridas, toda persona pueda tener acceso a un CAP cerca de su domicilio o del lugar donde labora; y poder así incorporar a más trabajadores a AFORE PENSIONISSSTE.</p>'
 stm.markdown(b, unsafe_allow_html=True)
 
-#stm.markdown("<h1 style='text-align: justify; color: black;'>PENSIONISSSTE pretende realizar un estudio para asentar nuevos Centros de Atención al Público conocidos como CAP’s en el espacio geográfico de las 32 entidades federativas, lo que implicaría que en las ciudades más concurridas, toda persona pueda tener acceso a un CAP cerca de su domicilio o cerca del lugar donde labora; y poder así incorporar a más trabajadores a AFORE PENSIONISSSTE.</h1>", unsafe_allow_html=True)
-
 c = '<p style="font-family:Courier; color:Black; font-size: 30px;">De igual manera, este estudio permitirá a PENSIONISSSTE saber si un CAP es rentable en su ubicación actual para así poder añadir nuevo personal, servicios y/o tecnologías, en caso contrario, si un CAP no es rentable este debe cerrar.</p>'
 stm.markdown(c, unsafe_allow_html=True)
 
@@ -36,9 +34,6 @@ stm.markdown(original_objetivo, unsafe_allow_html=True)
 
 d = '<p style="font-family:Courier; color:Black; font-size: 30px;">Realizar trabajo de investigación y aplicar técnicas estadísticas para el análisis de datos que permita tomar las mejores decisiones para ubicar, reubicar o cerrar los Centros de Atención al Público (CAP´s) de PENSIONISSSTE a lo largo del país.</p>'
 stm.markdown(d, unsafe_allow_html=True)
-
-
-#stm.markdown("<h1 style='text-align: justify; color: black;'>Realizar trabajo de investigación y aplicar técnicas estadísticas para el análisis de datos que permita tomar las mejores decisiones para ubicar, reubicar o cerrar los Centros de Atención al Público (CAP´s) de PENSIONISSSTE a lo largo del país.</h1>", unsafe_allow_html=True)
 
 stm.markdown("")
 stm.markdown("")
@@ -53,7 +48,11 @@ stm.markdown("")
 stm.markdown("")
 
 #stm.markdown("<h1 style='text-align: justify; color: black;'>3.-Requerimientos</h1>", unsafe_allow_html=True)
-stm.markdown("<h1 style='text-align: justify; color: black;'>a) Localización de cada CAP con latitud y longitud</h1>", unsafe_allow_html=True)
+
+e = '<p style="font-family:Courier; color:Black; font-size: 30px;">a) Localización de cada CAP con latitud y longitud</p>'
+stm.markdown(e, unsafe_allow_html=True)
+
+
 stm.markdown("<h1 style='text-align: justify; color: black;'>b) Número de personas atendidas de cada CAP por semana o en su caso por mes</h1>", unsafe_allow_html=True)
 stm.markdown("<h1 style='text-align: justify; color: black;'>c) Número de personas que trabajan en cada CAP</h1>", unsafe_allow_html=True)
 stm.markdown("<h1 style='text-align: justify; color: black;'>d) Número de habitantes por municipio</h1>", unsafe_allow_html=True)
