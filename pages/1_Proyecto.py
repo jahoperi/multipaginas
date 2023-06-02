@@ -58,7 +58,7 @@ stm.markdown(f, unsafe_allow_html=True)
 g = '<p style="text-align: justify; font-family:Courier; color:Black; font-size: 30px;">c) Número de personas que trabajan en cada CAP</p>' 
 stm.markdown(g, unsafe_allow_html=True)
 
-h = '<style="text-align: justify; font-family:Courier; color:Black; font-size: 30px;">d) Número de traspasos por entidad</p>' 
+h = '<p style="text-align: justify; font-family:Courier; color:Black; font-size: 30px;">d) Número de traspasos por entidad</p>' 
 stm.markdown(h, unsafe_allow_html=True)
 
 i = '<p style="text-align: justify; font-family:Courier; color:Black; font-size: 30px;">e) Monto de traspasos</p>'
