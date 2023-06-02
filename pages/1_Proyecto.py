@@ -32,7 +32,7 @@ stm.markdown("")
 original_objetivo = '<p style="font-family:Courier; color:Blue; font-size: 40px;">2.- Objetivo</p>'
 stm.markdown(original_objetivo, unsafe_allow_html=True)
 
-d = '<p style="text-align: justify, font-family:Courier; color:Black; font-size: 30px;">Realizar trabajo de investigación y aplicar técnicas estadísticas para el análisis de datos que permita tomar las mejores decisiones para ubicar, reubicar o cerrar los Centros de Atención al Público (CAP´s) de PENSIONISSSTE a lo largo del país.</p>'
+d = '<p style="text-align: justify; font-family:Courier; color:Black; font-size: 30px;">Realizar trabajo de investigación y aplicar técnicas estadísticas para el análisis de datos que permita tomar las mejores decisiones para ubicar, reubicar o cerrar los Centros de Atención al Público (CAP´s) de PENSIONISSSTE a lo largo del país.</p>'
 stm.markdown(d, unsafe_allow_html=True)
 
 stm.markdown("")
