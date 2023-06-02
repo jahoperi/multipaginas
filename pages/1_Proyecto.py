@@ -52,16 +52,29 @@ stm.markdown("")
 e = '<p style="font-family:Courier; color:Black; font-size: 30px;">a) Localización de cada CAP con latitud y longitud</p>'
 stm.markdown(e, unsafe_allow_html=True)
 
+f = '<p style="font-family:Courier; color:Black; font-size: 30px;">b) Número de personas atendidas de cada CAP por semana o en su caso por mes</h1></p>'
+stm.markdown(f, unsafe_allow_html=True)
 
-stm.markdown("<h1 style='text-align: justify; color: black;'>b) Número de personas atendidas de cada CAP por semana o en su caso por mes</h1>", unsafe_allow_html=True)
-stm.markdown("<h1 style='text-align: justify; color: black;'>c) Número de personas que trabajan en cada CAP</h1>", unsafe_allow_html=True)
-stm.markdown("<h1 style='text-align: justify; color: black;'>d) Número de habitantes por municipio</h1>", unsafe_allow_html=True)
-stm.markdown("<h1 style='text-align: justify; color: black;'>e) Ubicar los CAP’s de la competencia</h1>", unsafe_allow_html=True)
-stm.markdown("<h1 style='text-align: justify; color: black;'>f) Número de personas en el municipio con una CI</h1>", unsafe_allow_html=True)
-stm.markdown("<h1 style='text-align: justify; color: black;'>g) Número de personas en el municipio afiliados a AFORE PENSIONISSSTE</h1>", unsafe_allow_html=True)
-stm.markdown("<h1 style='text-align: justify; color: black;'>h) Número de traspasos por entidad</h1>", unsafe_allow_html=True)
-stm.markdown("<h1 style='text-align: justify; color: black;'>i) Monto de traspasos</h1>", unsafe_allow_html=True)
+g = '<p style="font-family:Courier; color:Black; font-size: 30px;">c) Número de personas que trabajan en cada CAP</h1></p>'
+stm.markdown(g, unsafe_allow_html=True)
 
+h = '<p style="font-family:Courier; color:Black; font-size: 30px;">d) Número de habitantes por municipio</h1></p>'
+stm.markdown(h, unsafe_allow_html=True)
+
+i = '<p style="font-family:Courier; color:Black; font-size: 30px;">e) Ubicar los CAP’s de la competencia</h1></p>'
+stm.markdown(i, unsafe_allow_html=True)
+
+j = '<p style="font-family:Courier; color:Black; font-size: 30px;">f) Número de personas en el municipio con una CI</h1></p>'
+stm.markdown(j, unsafe_allow_html=True)
+
+k = '<p style="font-family:Courier; color:Black; font-size: 30px;">g) Número de personas en el municipio afiliados a AFORE PENSIONISSSTE</h1></p>'
+stm.markdown(k, unsafe_allow_html=True)
+
+l = '<p style="font-family:Courier; color:Black; font-size: 30px;">h) Número de traspasos por entidad</h1></p>'
+stm.markdown(l, unsafe_allow_html=True)
+
+m = '<p style="font-family:Courier; color:Black; font-size: 30px;">i) Monto de traspasos</h1></p>'
+stm.markdown(m, unsafe_allow_html=True)
 
 stm.sidebar.success("La página se visualiza correctamente")
 
