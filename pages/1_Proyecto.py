@@ -17,7 +17,7 @@ stm.markdown("")
 
 #stm.markdown("<h1 style='text-align: justify; color: black;'>"I.-Introducción</h1>", unsafe_allow_html=True)
 
-a = '<p style="font-family:Courier; color:Black; font-size: 25px;">En PENSIONISSSTE es necesario contar con excelentes instalaciones, así como tener el personal capacitado para dar un servicio con la mejor calidad.</p>'
+a = '<p style="font-family:Courier; color:Black; font-size: 30px;">En PENSIONISSSTE es necesario contar con excelentes instalaciones, así como tener el personal capacitado para dar un servicio con la mejor calidad.</p>'
 stm.markdown(a, unsafe_allow_html=True)
 
 
